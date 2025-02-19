@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "156202833944",
+    "project_id": "lifease-dbaa9",
+    "storage_bucket": "lifease-dbaa9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156202833944:android:d5f4da7980944a372b8b6d",
+        "android_client_info": {
+          "package_name": "com.company.lifease"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD85Oie3iK-22qmfX-ipA6NtefII0ERE_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
