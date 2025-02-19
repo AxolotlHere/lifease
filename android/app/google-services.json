@@ -7,9 +7,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:156202833944:android:d5f4da7980944a372b8b6d",
+        "mobilesdk_app_id": "1:156202833944:android:d43d18f0027ce5ca2b8b6d",
         "android_client_info": {
-          "package_name": "com.company.lifease"
+          "package_name": "com.example.lifease"
         }
       },
       "oauth_client": [],
