@@ -1,15 +1,18 @@
 class Usermodel {
-  static Map<String,dynamic> formatData({required int w_hrs,
+  static Map<String,dynamic> formatData({required String name,required int w_hrs,
   required double weight,
   required double height,
-  required int exercise_scale,
+  required Map exercise_scale,
   required int slp_hrs,
   required bool no_work,
-  required int vac_status,
-  required int steps,
-  required int observed_sleep_patterns,
+  required double vac_status,
+  required String email,
+  required String password,
   }){
     return {
+      "name":name,
+      "email":email,
+      "password":password,
       "w_hrs":w_hrs,
       "weight":weight,
       "height":height,
@@ -17,8 +20,6 @@ class Usermodel {
       "slp_hrs":slp_hrs,
       "no_work":no_work,
       "vac_status":vac_status,
-      "steps":steps,
-      "observed_sleep_patterns":observed_sleep_patterns
     };
   }
 }
